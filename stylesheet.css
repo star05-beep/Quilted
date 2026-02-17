@@ -1,0 +1,405 @@
+*
+{
+	box-sizing: border-box;
+	max-width: 1280px;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 
+{
+	display: inline; 
+	vertical-align:top; 
+	color:#E7D5E0; 
+	font-family:'Bubblegum Sans', cursive; 
+	font-size:35px; 
+	margin-left:5px;
+}
+h2
+{
+	font-family: 'verdana', sans-serif;
+	font-size:20px; 
+	margin-top: 10px; 
+	align:middle; 
+	color:#AF8FB9; 
+	vertical-align:top; 
+	margin-right:10px;
+	font-weight: 1000;
+	background-color:/#F8ECC4;
+
+}
+h3
+{
+
+	text-align: center;
+	vertical-align:top; 
+	color:#DEAB2B; 
+	font-family:'Bubblegum Sans', cursive; 
+	font-size:35px; 
+	margin-left:5px;
+}
+ .partone-content-a .note-heading
+{
+margin-top: 15px;
+font-family: 'verdana', sans-serif;
+line-height: 1.5;
+color: #AF8FB9;
+font-size: 20px;
+font-weight: 1000;
+background-color:/#F8ECC4;
+}
+
+
+body
+{
+font-family: 'verdana', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background-color: #E7D5E0;
+}
+
+a
+{text-decoration: none;
+
+}
+ul
+{
+	list-style: none;
+}
+img
+{
+	max-width: 100%
+}
+/*Nav bar*/
+.navbar
+{
+	max-width:100%;
+	background-color: #AF8FB9;
+	padding: 10px;
+	margin: 0;
+	;
+}
+.navbar .main-menu ul
+{
+	display: flex;
+}
+.navbar ul li a
+{
+	padding: 10px 0px;
+	display: block;
+	font-weight: 480;
+	transition: 0.5s;
+	color:#F8ECC4;
+	
+}
+.navbar ul li a:hover
+{
+	color: #EFEFF1;
+	text-decoration: underline;
+}
+.navbar .container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+/*.navbar ul li:last-child a
+{
+	margin-left: 10px;
+}*/
+.partone .container
+{
+display: inline-flex;
+max-width: 1280px;
+background:#E7D5E0;
+padding: 10px 10px 10px 10px;
+
+column-count: 2;
+column-gap: 30px;
+align-content: center;
+
+}
+
+ .partone .container-a
+{
+	display: flex;
+	align-items: left;
+	width: 60%; 
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	border-color: #E7D5E0;
+	border: 5px;
+	justify-content:left-side;
+	background-color: #EFEFF1;
+	flex-direction: column; 
+	flex-shrink: 0; 
+}
+
+/* Button container */
+.partone .partone-buttons
+{
+	display: flex;
+	gap: 10px;
+	width: 100%; 
+	margin-top: 15px;
+}
+
+
+.partone .container-a ul
+{	
+	display: flex;
+	gap: 10px;
+	width: 100%;
+	align-items: center;
+}
+
+/* Button items */
+.partone .container-a ul li
+{
+	flex: 1 1 0; 
+	min-width: 0; 
+}
+
+.partone .container-a ul li a
+{
+	color:#F8ECC4;
+	text-decoration:none;
+	padding: 10px 5px;
+	display: block;
+	transition: 0.5s;
+	text-align: center;
+	width: 100%;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+}
+.partone .container-a ul li a:hover
+{
+text-decoration: underline;
+font-color:#EFEFF1;
+}
+
+ .partone .container-b
+{
+	padding: 10px 10px 10px 10px;
+	align-items: left;
+	margin-right:15px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	width: 35%; 
+	border-color: #E7D5E0;
+	border: 5px;
+	justify-content: right-side;
+	background-color: #EFEFF1;
+	
+	flex-shrink: 0; 
+}
+
+
+/*Utility classes*/
+.container
+{
+	max-width: 1280px;
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+/*Buttons*/
+.btn 
+{
+	display: inline-block;
+	padding: 10px 12px;
+	border: 4px solid ;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.5s;
+	width: 100%;
+	text-align: center;
+}
+.btn-light
+{background:#DEAB2B;
+	border: 4px solid #AF8FB9;
+	width: 90px;
+}
+.btn:hover
+{
+	opacity: 0.8;
+}
+.btn-block
+{
+	display: block;
+	width: 100%
+}
+
+.btn-two
+{
+	background:#DEAB2B;
+	border: 4px solid #EFEFF1;
+	width: 100%;
+}
+
+/*About-us-css*/
+.about-us-main
+{
+	width: 100%;
+	background-color: #E7D5E0;
+	padding: 40px 20px;
+}
+
+.gallery-container
+{
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #EFEFF1;
+	padding: 30px;
+	border-radius: 8px;
+}
+
+/* Image Grid - 4 columns */
+.image-grid
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	width: 100%;
+	padding-top:10px;
+}
+
+/* Individual Image Item */
+.image-item
+{
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; /* Creates a 1:1 aspect ratio (square) */
+	background-color: #E7D5E0;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.image-item:hover
+{
+	transform: translateY(-5px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-item img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+/* Overlay for fade-in effects */
+.image-item .overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #AF8FB9;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2f2f30;
+	font-family: 'verdana', sans-serif;
+	padding: 20px;
+	text-align: center;
+}
+
+.image-item:hover .overlay
+{
+	opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px)
+{
+	.image-grid
+	{
+		grid-template-columns: repeat(3, 1fr);
+		gap: 15px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.image-grid
+	{
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+	
+	.gallery-container
+	{
+		padding: 20px;
+	}
+}
+
+@media (max-width: 480px)
+{
+	.image-grid
+	{
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+}
+
+
+
+footer
+{
+    background-color: #AF8FB9;
+    color: #AF8FB9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	padding-left: 40px;
+	padding-right: 80px;
+}
+
+.footer-p
+{
+    text-align: left;
+    padding: 10px;
+    background-color: #AF8FB9;
+    color: #EFEFF1;
+    font-family: 'verdana', sans-serif;
+    font-size: 20px; 
+    vertical-align: top; 
+    font-weight: 900;
+    margin: 0;  /* Remove default margin */
+}
+
+
+footer .footer-p a
+{	text-align: left;
+	background-color: #AF8FB9;
+	color: #E7D5E0;
+	font-family: 'verdana', sans-serif;
+	font-size:20px; 
+	vertical-align:top; 
+	font-weight: 900;
+	text-decoration: none;
+}
+footer  .logo
+{
+	float: right;
+	display: inline-block;
+}
+footer a:hover
+{
+text-decoration: underline;
+color: #F8ECC4;
+}
